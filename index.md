@@ -1,6 +1,6 @@
 ---
 title: Registry
-layout: registry
+layout: home
 ---
 
 tbd
