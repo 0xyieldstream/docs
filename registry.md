@@ -1,5 +1,5 @@
 ---
-title: Registry
+title: 3. Registry
 layout: home
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 2. Factory
+title: 1. Intro
 layout: home
 ---
 
