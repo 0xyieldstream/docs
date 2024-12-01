@@ -19,17 +19,17 @@ In the context of Yieldstream, invariants are predefined rules or properties tha
 
 A prime example of an invariant within the Yieldstream protocol is the lending market invariant.
 
-1. Purpose
+1. **Purpose**
 
 - This invariant ensures that the total value of funds in an external market can only increase due to interest payments made to depositors.
 - This invariant guarantees that the protocol’s health is preserved by preventing any external manipulation or malfeasance from impacting user funds.
 
-2. How it works
+2. **How it works**
 
 - The protocol continuously monitors the total value recorded in an external market compared to the deposits made by the vault.
 - If the external market value ever drops below the deposited amount, the invariant is considered broken, signaling a potential malicious act or critical failure in the external market.
 
-3. Response to broken invariant
+3. **Response to broken invariant**
 
 - The protocol immediately switches the affected market to recovery mode.
 - In recovery mode:
@@ -44,7 +44,7 @@ For example:
 
 - A vault deposits $1,000 in a stablecoin lending market.
 - Over time, the value in the market should either remain at $1,000 or increase due to interest accrual.
-- If the market suddenly reports $950, the Stablecoin Invariant is triggered.
+- If the market suddenly reports $950, the lending invariant is triggered.
 - The protocol immediately halts all interactions with the market and switches it to recovery mode.
 - During the next user transaction, the $950 is withdrawn and returned to the vault, preventing further losses.
 
