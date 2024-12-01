@@ -19,17 +19,17 @@ In the context of Yieldstream, invariants are predefined rules or properties tha
 
 A prime example of an invariant within the Yieldstream protocol is the lending market invariant.
 
-1. **Purpose**
+**Purpose**
 
 - This invariant ensures that the total value of funds in an external market can only increase due to interest payments made to depositors.
 - This invariant guarantees that the protocol’s health is preserved by preventing any external manipulation or malfeasance from impacting user funds.
 
-2. **How it works**
+**How it works**
 
 - The protocol continuously monitors the total value recorded in an external market compared to the deposits made by the vault.
 - If the external market value ever drops below the deposited amount, the invariant is considered broken, signaling a potential malicious act or critical failure in the external market.
 
-3. **Response to broken invariant**
+**Response to broken invariant**
 
 - The protocol immediately switches the affected market to recovery mode.
 - In recovery mode:
