@@ -3,6 +3,8 @@ title: 3. Registry
 layout: home
 ---
 
+## Yieldstream Registry
+
 The Yieldstream Registry serves as the backbone of the protocol’s adapter management system, providing a centralized yet permissionless framework where whitelisted adapters are registered for user accessibility.
 By leveraging the registry, Yieldstream ensures a curated and secure environment for deploying customized vaults, offering users the confidence to interact with a trusted set of adapters.
 
