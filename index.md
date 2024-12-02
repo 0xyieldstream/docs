@@ -3,27 +3,18 @@ title: 1. Intro
 layout: home
 ---
 
-Yieldstream is a novel concept in the yield aggregation space that answers a question many of you have been asking yourselves in the last few years.
-What if I could be my own curator? What if I could actually play around with defi's money legos directly without having to rely on the decisions of third parties in my yield generation activities? What if I had access to an endless amount of options in Ethereum's infinite garden?
+## Introduction
 
-Yieldstream is the answer to that question.
-Yieldstream will free you from defi's current constraints by allowing you to take your yield generation strategy into your own hands through it's flexible yield aggregation infrastructure, unlocking an endless amount of possibilities and allowing you to package them into a highly flexible ERC-4626 vault that you can modify over time as you please.
+Yieldstream redefines yield aggregation by putting the power back in your hands. Have you ever wondered: What if I could design my own strategy? What if I could truly harness DeFi’s money legos without relying on third-party decisions for my yield generation? What if I had access to limitless possibilities in Ethereum’s ever-expanding ecosystem? Yieldstream is the answer.
 
-But Yieldstream is not just another yield aggregator.
-Yieldstream goes a step further by completely reimagining the way yield is aggregated through the introduction of a decentralised rebalancing mechanism and through the concept of liquidity caps.
-This approach allows you to engage in highly granular capital management without having to engage with the rebalancing process as the open market works on your behalf to optimise your returns through Yieldstream's onchain revshare mechanism.
+With Yieldstream, you can take full control of your yield generation strategies through its flexible, modular infrastructure. By empowering you to create highly customizable ERC-4626 vaults that adapt to your evolving needs, Yieldstream unlocks endless opportunities and lets you curate strategies that reflect your unique goals.
 
-Yieldstream's decentralised rebalancing process modernises the yield aggregation concept by bringing the entire process on-chain removing the reliance on off-chain components.
-The Yieldstream rebalancing process achieves this by allowing the open submission of rebalancing requests to any operational Yieldstream vault in exchange for a slice of the yield that the underlying vault generates for the lifetime of a proposal with the revshare rate being chosen by the vault owner upon deployment.
+But this isn’t just another yield aggregator. Yieldstream revolutionizes the space with a decentralized rebalancing mechanism and innovative liquidity caps. These features enable granular capital management while leveraging the open market to optimize returns on your behalf via its on-chain revenue-sharing mechanism.
 
-The Yieldstream framework allows vault deployers to exercise full control on the market selection layer and is highly flexible as it allows deployers to add and remove markets over time but the decentralised nature of the rebalancing process creates the need for a more granular risk management framework so Yieldstream goes a step further by adding a second layer of control through the liquidity cap mechanism.
+Yieldstream’s fully on-chain rebalancing modernizes yield aggregation by eliminating reliance on off-chain components. Users can submit rebalancing requests to active vaults and earn a share of the generated yield for the lifetime of the proposal, with revshare rates determined by vault owners during deployment.
 
-The liquidity cap feature allows vault deployers to set up limits on the rebalancing process by providing them with the ability to impose tvl% caps on an adapter by adapter basis.
-For example a user that operates a vault which allocates liquidity to the btc/usdc, eth/usdc and mkr/usdc markets of Morpho's Base deployment might choose to impose a 20% tvl limit on the mkr/usdc market barring strategists from allocating more than 20% of the vault's tvl into the mkr/usdc pool.
+Vault deployers maintain full control over market selection and can adapt their strategies over time. The liquidity cap mechanism adds an extra layer of control, allowing deployers to limit allocations per adapter, ensuring smarter, safer capital deployment.
 
-Apart from the above features Yieldstream vaults offer another feature that enables them to stand out from the crowd. That feature is called the invariant and acts as an additional layer of security for Yieldstream users.
-The invariant checks out the underlying markets and acts as a circuit breaker in the case of losses by blocking deposits in the affected adapter while the vault owner is then able to call the rescue function in order to pull out the affected deposits.
+In addition, Yieldstream’s Invariant Framework offers robust security. By monitoring external markets for anomalies, such as unexpected losses, it acts as a circuit breaker, automatically preventing further deposits and enabling swift fund recovery.
 
-Yieldstream is a completely new approach in the yield aggregation space.
-If you always wanted to become your own curator Yieldstream will allow you to do exactly that.
-We are launching soon on top of Morpho's Base deployment and you are free to join us in this journey as the Yieldstream platform is entirely permissionless. No admin keys. No gatekeepers. No bullshit.
+Yieldstream offers a radically new way to engage with yield aggregation. Whether you’re an experienced strategist or exploring the possibilities of DeFi for the first time, Yieldstream is designed for you. Launching soon on Morpho’s Base deployment, Yieldstream is fully permissionless: no admin keys, no gatekeepers—just pure DeFi innovation.
