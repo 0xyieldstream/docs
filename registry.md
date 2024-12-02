@@ -46,4 +46,4 @@ By leveraging the registry, Yieldstream ensures a curated and secure environment
 - During vault creation, users can select one or more adapters from the registry to define their strategy.
 - Vault deployers retain the flexibility to update their adapter selection post-deployment through the Yieldstream infrastructure.
 
-The Yieldstream Registry is more than just a catalog of adapters—it’s a hub for innovation, security, and user empowerment, ensuring every vault deployer has the tools they need to succeed in the ever-evolving DeFi landscape.
+The Yieldstream registry is more than just a catalog of adapters—it’s a hub for innovation, security, and user empowerment, ensuring every vault deployer has the tools they need to succeed in the ever-evolving DeFi landscape.
