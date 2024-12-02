@@ -5,7 +5,7 @@ layout: home
 
 ## The Yieldstream Vault Factory
 
-The Yieldstream Vault Factory is the gateway for creating personalized yield strategies, enabling users to interact seamlessly with the Yieldstream Registry and deploy vaults tailored to their specific needs.
+The Yieldstream vault factory is the gateway for creating personalized yield strategies, enabling users to interact seamlessly with the Yieldstream registry and deploy vaults tailored to their specific needs.
 The factory empowers users by providing access to Yieldstream-supported markets and hosting the global adapter registry, all within a streamlined deployment process.
 
 ### Key Features of the Vault Factory
