@@ -3,6 +3,8 @@ title: 8. Invariants
 layout: home
 ---
 
+## Yieldstream Invariants
+
 Invariants are fundamental safeguards within the Yieldstream protocol, ensuring the health and integrity of the system at all times.
 These critical checks monitor key properties that reflect the state of the protocol and its interactions with external markets.
 By leveraging invariants, Yieldstream is able to detect anomalies, mitigate risks, and protect user funds through automated responses.
