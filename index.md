@@ -15,6 +15,9 @@ Yieldstream’s fully on-chain rebalancing modernizes yield aggregation by elimi
 
 Vault deployers maintain full control over market selection and can adapt their strategies over time. The liquidity cap mechanism adds an extra layer of control, allowing deployers to limit allocations per adapter, ensuring smarter, safer capital deployment.
 
-In addition, Yieldstream’s Invariant Framework offers robust security. By monitoring external markets for anomalies, such as unexpected losses, it acts as a circuit breaker, automatically preventing further deposits and enabling swift fund recovery.
+In addition, Yieldstream’s invariant framework offers robust security.
+By monitoring external markets for anomalies, such as unexpected losses, it acts as a circuit breaker, automatically preventing further deposits and enabling swift fund recovery.
 
-Yieldstream offers a radically new way to engage with yield aggregation. Whether you’re an experienced strategist or exploring the possibilities of DeFi for the first time, Yieldstream is designed for you. Launching soon on Morpho’s Base deployment, Yieldstream is fully permissionless: no admin keys, no gatekeepers—just pure DeFi innovation.
+Yieldstream offers a radically new way to engage with yield aggregation.
+Whether you’re an experienced strategist or exploring the possibilities of DeFi for the first time, Yieldstream is designed for you.
+Launching soon on Morpho’s Base deployment, Yieldstream is fully permissionless: no admin keys, no gatekeepers—just pure DeFi innovation.
