@@ -45,7 +45,7 @@ Yieldstream encourages innovation and community participation in expanding its e
 
 **Registering Adapters**:
 
-- Once developed, adapters can be submitted for inclusion in the Yieldstream Registry, making them available for use by all vault deployers.
+- Once developed, adapters can be submitted for inclusion in the Yieldstream registry, making them available for use by all vault deployers.
 
 ### Benefits of Yieldstream Adapters
 
