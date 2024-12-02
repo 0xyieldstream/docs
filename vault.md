@@ -45,7 +45,7 @@ This adherence to industry standards ensures flexibility, interoperability, and 
 
 **Deploy Your Vault**:
 
-- Use the Yieldstream Vault Factory to configure and deploy a vault with your desired strategy.
+- Use the Yieldstream vault factory to configure and deploy a vault with your desired strategy.
 
 **Select Your Markets**:
 
