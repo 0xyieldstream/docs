@@ -81,4 +81,4 @@ A user deploying a Yieldstream vault focused on stablecoin markets might:
 - Set a 10% revshare rate to incentivize strategists.
 - Deploy their vault and manage their strategy dynamically as market conditions change
 
-The Yieldstream Vault Factory is the ultimate tool for DeFi curators, providing the infrastructure and flexibility needed to craft and refine bespoke yield strategies in an ever-evolving ecosystem.
+The Yieldstream vault factory is the ultimate tool for DeFi curators, providing the infrastructure and flexibility needed to craft and refine bespoke yield strategies in an ever-evolving ecosystem.
