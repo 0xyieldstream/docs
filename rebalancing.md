@@ -3,19 +3,95 @@ title: 6. Rebalancing
 layout: home
 ---
 
-The Yieldstream rebalancing process is the central innovation behind the Yieldstream protocol as it functions entirely on-chain through the use of a decentralised and open process that anyone can participate in, removing the requirement for the use of any off-chain infrastructure.
+## Yieldstream Rebalancing
 
-Anyone can send a rebalancing request to any Yieldstream vault of their choice as long as the request satisfies the following requirements:
+The Yieldstream rebalancing process is the cornerstone of the protocol, enabling dynamic and decentralized optimization of yield strategies. By operating entirely on-chain, Yieldstream eliminates the need for off-chain infrastructure, ensuring transparency, security, and open participation.
 
-1. All the markets involved in the request must belong in the list of the owner's whitelisted markets based on their vault configuration
+### Overview of Rebalancing
 
-2. The apy improvement satisfies the minimum improvement requirement set by the vault owner during the vault deployment process
+The rebalancing process allows strategists to submit proposals that adjust a vault's allocation of assets across supported markets. These proposals are evaluated and executed entirely on-chain, ensuring a seamless and trustless process.
 
-3. The allocations proposed by the strategist's rebalancing request respect the allocation caps set by the vault's owner
+### Rebalancing Requirements
 
-A rebalancing request will go through as long as the above requirements are being met
+For a rebalancing request to be considered valid, it must meet the following criteria:
 
-The entire rebalancing process takes place entirely on-chain.
-The Yieldstream vault receives the rebalancing request and proceeds to calculate the actual apy's of the proposal by taking into account the apy fluctuations that will be caused by it's own rebalancing activity based on the interest rate curves of the underlying markets.
+**Whitelisted Markets**:
 
-The strategists that submit successful rebalancing requests get rewarded for doing so by receiving part of the yield that the underlying vault generates for as long as their proposals are active. The rewards are calculated based on the underlying vault's revshare rate which is set by the vault owner and can be modified over time.
+- All proposed markets must belong to the list of markets approved by the vault owner during the vault’s configuration.
+
+**Minimum APY Improvement**:
+
+- The proposal must deliver an APY improvement that satisfies the minimum threshold set by the vault owner at deployment.
+
+**Liquidity Caps**:
+
+- The proposed allocations must respect the liquidity caps defined by the vault owner for each market, preventing overexposure.
+
+As long as these requirements are met, the rebalancing request will be approved and executed.
+
+### How Rebalancing Works
+
+**Submission**:
+
+- Strategists send a rebalancing request to a Yieldstream vault, specifying the desired reallocation of assets.
+
+**On-Chain Evaluation**:
+
+- The vault calculates the actual APY improvements, considering potential fluctuations caused by the rebalancing itself.
+- These calculations use the interest rate curves of the underlying markets to estimate post-rebalancing yields.
+
+**Execution**:
+
+- If the request meets all requirements, the vault reallocates its assets according to the proposal.
+
+**Strategist Rewards**:
+
+- Strategists whose proposals are executed successfully earn a share of the vault’s yield.
+- The reward rate is determined by the revshare rate, which is configured by the vault owner and can be updated over time.
+
+### Key Features of Rebalancing
+
+**Fully On-Chain**:
+
+- The entire process, from proposal submission to execution, takes place on-chain, ensuring transparency and eliminating reliance on off-chain infrastructure.
+
+**Permissionless Participation**:
+
+- Anyone can submit a rebalancing request, fostering an open and competitive environment for yield optimization.
+
+**Dynamic Yield Optimization**:
+
+- The protocol continuously adapts to market conditions, maximizing returns while adhering to vault-specific constraints.
+
+**Flexible Incentives**:
+
+- Strategists are rewarded based on the duration and performance of their active proposals, ensuring alignment with the vault’s goals.
+
+### Configurable Parameters
+
+Vault owners have several tools to customize the rebalancing process:
+
+**Whitelisted Markets**:
+
+- Define the list of markets eligible for rebalancing to align with the vault's strategy.
+
+**Minimum APY Threshold**:
+
+- Set the minimum APY improvement required for proposals to be considered.
+
+**Revshare Rate**:
+
+- Determine the share of yield allocated to strategists, balancing incentives and vault profitability.
+
+**Liquidity Caps**:
+
+- Set allocation limits for each market to manage risk and maintain diversified strategies.
+
+### Example Workflow
+
+1. A strategist identifies an opportunity to improve a vault’s yield by reallocating funds between ETH/USDC and DAI/USDC markets.
+2. The strategist submits a rebalancing request proposing a new allocation while ensuring it respects the vault’s whitelisted markets, minimum APY improvement, and liquidity caps.
+3. The vault evaluates the proposal on-chain, considering potential APY changes due to rebalancing.
+4. If approved, the vault reallocates assets, and the strategist earns a share of the vault’s yield as long as their proposal remains active.
+
+The rebalancing process is a testament to Yieldstream’s commitment to innovation, decentralization, and user empowerment. By enabling anyone to participate in optimizing vault strategies and automating the entire process on-chain, Yieldstream sets a new standard for efficiency and transparency in DeFi yield aggregation.
