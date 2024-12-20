@@ -89,7 +89,7 @@ Vault owners have several tools to customize the rebalancing process:
 
 ### Example Workflow
 
-1. A strategist identifies an opportunity to improve a vault’s yield by reallocating funds between ETH/USDC and DAI/USDC markets.
+1. A strategist identifies an opportunity to improve a vault’s yield by reallocating funds between ETH/USDC and CBBTC/USDC markets.
 2. The strategist submits a rebalancing request proposing a new allocation while ensuring it respects the vault’s whitelisted markets, minimum APY improvement, and liquidity caps.
 3. The vault evaluates the proposal on-chain, considering potential APY changes due to rebalancing.
 4. If approved, the vault reallocates assets, and the strategist earns a share of the vault’s yield as long as their proposal remains active.

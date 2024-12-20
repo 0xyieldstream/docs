@@ -18,7 +18,7 @@ The factory empowers users by providing access to Yieldstream-supported markets 
 **Blueprint Contract**:
 
 - At the core of the factory is a blueprint contract that standardizes and simplifies the deployment process.
-- This ensures a consistent user experience and robust infrastructure for creating Yieldstream vaults.
+- This ensures a consistent user experience and a robust infrastructure for creating Yieldstream vaults.
 
 ### Customizable Parameters for Vault Deployment
 
@@ -76,7 +76,7 @@ When deploying a Yieldstream vault, users can configure the following key parame
 
 A user deploying a Yieldstream vault focused on stablecoin markets might:
 
-- Select adapters for DAI/USDC and USDT/USDC pools from the registry.
+- Select adapters for CBBTC/USDC and ETH/USDC pools from the registry.
 - Configure a 5% APY improvement target to trigger rebalancing.
 - Set a 10% revshare rate to incentivize strategists.
 - Deploy their vault and manage their strategy dynamically as market conditions change

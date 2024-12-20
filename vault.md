@@ -5,7 +5,7 @@ layout: home
 
 ## The Yieldstream Vault
 
-The Yieldstream vault is the cornerstone of the protocol, built on the ERC-4626 standard to align with the latest DeFi innovations.
+The Yieldstream vault is the epicenter of the protocol, built on the ERC-4626 standard to align with the latest DeFi innovations.
 This adherence to industry standards ensures flexibility, interoperability, and scalability, making Yieldstream a standout solution in the yield aggregation space.
 
 ## Core Design Principles

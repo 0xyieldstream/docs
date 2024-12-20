@@ -22,10 +22,10 @@ These core functionalities provide a consistent and predictable way for vaults t
 
 ### Market Integration
 
-One of the standout features of Yieldstream adapters is their flexibility to integrate with any market that supports atomic transactions. This means:
+Yieldstream adapters are highly flexible and able to integrate with any market that supports atomic transactions. This means:
 
 - Any DeFi protocol with transaction mechanisms that complete in a single operation can be integrated.
-- Users can deploy vaults connected to a wide range of markets, from lending protocols to liquidity pools, based on their strategy.
+- Users can deploy vaults connected to a wide range of markets based on their strategy.
 
 ### Strategy Execution with Adapters
 
@@ -58,8 +58,8 @@ Yieldstream encourages innovation and community participation in expanding its e
 
 A Yieldstream vault targeting stablecoin markets might utilize adapters for:
 
-- A lending protocol offering USDC/DAI pools.
-- A decentralized exchange providing high APY on USDC/USDT pairs.
+- A lending pool offering CBBTC/DAI pools.
+- A lending pool providing high APY on ETH/DAI pairs.
 - The vault owner uses these adapters to dynamically allocate funds to the most profitable pools while maintaining risk limits.
 
 Yieldstream adapters are more than just connectors—they are the engine driving interoperability and innovation in the protocol. With their modular design and broad compatibility, adapters empower users to curate strategies that adapt to the dynamic DeFi landscape. Whether you're leveraging existing adapters or creating new ones, Yieldstream adapters are the key to unlocking the protocol's full potential.
